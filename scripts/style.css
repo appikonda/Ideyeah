@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+body {
+   background-color: #f0f0f0;
+   font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 1.5em;
+   font-weight: normal;
+   font-variant: normal;
+}
+
+label {
+   display: block;
+}
+
+.error {
+   color: #ff0000;
+   font-weight: bold;
+}
+
+.message {
+   color: #669900;
+   font-weight: bold;
+}
+
+ul#top-menu {
+   list-style: none;
+   display: inline;
+}
+
+ul#top-menu li{
+   list-style: none;
+   list-style-type: none;
+   display: inline;
+}
+
+ul#top-menu li a{
+   border: 1px solid black;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   font-size: 11pt;
+   text-decoration: none;
+}
+
